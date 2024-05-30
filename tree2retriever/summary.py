@@ -31,7 +31,7 @@ class GLMSummarizationModel(BaseSummarizationModel):
     def summarize(self, context, max_tokens=500, stop_sequence=None):
         try:
             prompt=f"Write a summary of the following, including as many key details as possible: {context}:"
-            response, history = self.model.chat(self.tokenizer, prompt, '')
+            response, history = self.model.chat(self.tokenizer, prompt, None)
             return response
         except Exception as e:
             print(e)

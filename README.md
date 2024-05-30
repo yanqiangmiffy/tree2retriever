@@ -1,7 +1,9 @@
 # tree2retriever
-面向RAG场景的递归摘要树检索器实现
+**面向RAG场景的递归摘要树检索器实现**
 
 > Recursive Abstractive Processing for Tree-Organized Retrieval
+
+![img.png](sources/img.png)
 
 ## Example
 ```python
